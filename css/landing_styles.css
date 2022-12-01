@@ -1,0 +1,109 @@
+main {
+  height: 350px;
+}
+
+main div {
+  padding-top: 30px;
+  position: relative;
+  height: 30%;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  top: 43%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 10, 0, 0.85);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.loader {
+  box-shadow: none;
+  position: absolute;
+  top: 50%;
+  bottom: 0px;
+  left: 30%;
+  right: 0px;
+  margin: auto;
+  width: 175px;
+  height: 100px;
+  background: transparent;
+}
+.loader span {
+  display: block;
+  background: transparent;
+  width: 7px;
+  height: 10%;
+  border-radius: 14px;
+  margin-right: 5px;
+  float: left;
+  margin-top: 25%;
+}
+.loader span:last-child {
+  margin-right: 0px;
+}
+.loader span:nth-child(1) {
+  animation: load 2.5s 1.4s infinite linear;
+}
+.loader span:nth-child(2) {
+  animation: load 2.5s 1.2s infinite linear;
+}
+.loader span:nth-child(3) {
+  animation: load 2.5s 1s infinite linear;
+}
+.loader span:nth-child(4) {
+  animation: load 2.5s 0.8s infinite linear;
+}
+.loader span:nth-child(5) {
+  animation: load 2.5s 0.6s infinite linear;
+}
+.loader span:nth-child(6) {
+  animation: load 2.5s 0.4s infinite linear;
+}
+.loader span:nth-child(7) {
+  animation: load 2.5s 0.2s infinite linear;
+}
+.loader span:nth-child(8) {
+  animation: load 2.5s 0s infinite linear;
+}
+.loader span:nth-child(9) {
+  animation: load 2.5s 0.2s infinite linear;
+}
+.loader span:nth-child(10) {
+  animation: load 2.5s 0.4s infinite linear;
+}
+.loader span:nth-child(11) {
+  animation: load 2.5s 0.6s infinite linear;
+}
+.loader span:nth-child(12) {
+  animation: load 2.5s 0.8s infinite linear;
+}
+.loader span:nth-child(13) {
+  animation: load 2.5s 1s infinite linear;
+}
+.loader span:nth-child(14) {
+  animation: load 2.5s 1.2s infinite linear;
+}
+.loader span:nth-child(15) {
+  animation: load 2.5s 1.4s infinite linear;
+}
+
+@keyframes load {
+  0% {
+    background: #03e9f4;
+    margin-top: 25%;
+    height: 10%;
+  }
+  50% {
+    background: #025559;
+    height: 100%;
+    margin-top: 0%;
+  }
+  100% {
+    background: #03e9f4;
+    height: 10%;
+    margin-top: 25%;
+  }
+}

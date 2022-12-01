@@ -1,0 +1,97 @@
+.container {
+  	background: rgba(29, 10, 0, 0.85);
+  	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#main-infos, #infos {
+	padding: 30px;
+}
+
+#separator {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 90%;
+	border: 1px solid white;
+}
+
+#infos div:nth-child(2){
+	padding-top: 20px;
+}
+
+#infos div {
+	font-size: 20px;
+	text-align: justify;
+}
+
+#infos h3 {
+	font-size: 34px;
+}
+
+#guitar-images {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#main-image {
+	width: 600px;
+}
+
+#miniatures {
+	margin-top: 20px;
+	background-color: rgb(32, 32, 32);
+	display: flex;
+	align-items: center;
+	width: 600px;
+	height: 90px;
+}
+
+#miniatures img {
+	height: 100%;
+	object-fit: contain;
+}
+
+#infos-product{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#prix {
+	text-align: right;
+	margin-top: 70px;
+}
+
+#infos-product h1 {
+	font-size: 34px;
+}
+
+#infos-product p {
+	text-align: right;
+}
+
+#disponibility {
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#description h3, #caracteristics h3 {
+	margin-bottom: 20px;
+}
+
+#add-cart {
+	color: red;
+	float: right;
+	text-align: right;
+}
+
+#add-button {
+	color: red;
+	text-align: right;
+}

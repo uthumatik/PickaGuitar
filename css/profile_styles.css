@@ -1,0 +1,153 @@
+footer {
+  margin-top: 1280px;
+}
+
+.login-box h2:first-child {
+  font-size: 40px;
+}
+
+.login-box hr {
+  border: 1px solid white;
+  width: 90%;
+  margin: 30px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.login-box p a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-box p a:hover {
+  color: #03e9f4;
+  transition: 0.6s;
+}
+
+.login-box {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  width: 600px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 10, 0, 0.85);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box .infos-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: center;
+}
+
+.login-box .infos-profile p {
+  font-size: 30px;
+}
+
+.login-box .infos-profile h2 {
+  font-size: 35px;
+}
+
+.login-box h2 {
+  margin: 0 0 20px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box select {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+.login-box .user-box select option {
+  background: rgba(0,0,0,.9);
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box:nth-child(6) {
+  display: flex;
+}
+
+.login-box .user-box:nth-child(6) select {
+  width: 80px;
+  text-align: center;}
+
+.login-box .user-box select:hover {
+  cursor: pointer;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label,
+.login-box .user-box select:valid ~ label {
+  top: -25px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 14px;
+}
+
+.login-box form button, .login-box a[role=button] {
+  border: none;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 10px;
+  letter-spacing: 4px
+}
+
+.login-box .btn-outline-light {
+  border: none;
+  margin: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+}
